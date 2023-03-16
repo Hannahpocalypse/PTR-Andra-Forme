@@ -45,7 +45,7 @@ export class PTUActor extends Actor {
       system: {
         levelUpPoints: [
           { label: "Base Value", change: { type: CONST.ACTIVE_EFFECT_MODES.ADD, value: actorData.type === 'character' ? 9 : 10 } },
-          { label: "Level", change: { type: CONST.ACTIVE_EFFECT_MODES.ADD, value: actorSystem.level.current } },
+          { label: "Level", change: { type: CONST.ACTIVE_EFFECT_MODES.ADD, value: actorSystem.level.current * 2 } },
           { label: "HP Stat", change: { type: CONST.ACTIVE_EFFECT_MODES.ADD, value: -actorSystem.stats.hp.levelUp } },
           { label: "ATK Stat", change: { type: CONST.ACTIVE_EFFECT_MODES.ADD, value: -actorSystem.stats.atk.levelUp } },
           { label: "DEF Stat", change: { type: CONST.ACTIVE_EFFECT_MODES.ADD, value: -actorSystem.stats.def.levelUp } },
