@@ -1,7 +1,7 @@
 {
-  "id": "ptu",
-  "title": "Pokemon Tabletop Reunited",
-  "description": "A re-imagining of the Pokemon Tabletop United TTRPG System now made with FoundryVTT as a central pilar.",
+  "id": "ptra",
+  "title": "PTR Ändra Forme,
+  "description": "A fork of PTR made for personal use.",
   "compatibility": {
     "minimum": 10,
     "verified": "10.291",
@@ -36,6 +36,10 @@
     {
       "name": "Cody Swendrowski",
       "url": "https://swendrowski.us"
+    },
+    {
+      "name": "Hannah Pocalypse",
+      "url": "https://github.com/Hannahpocalypse/PTR-Andra-Forme"
     }
   ],
   "esmodules": ["module/ptu.js"],
